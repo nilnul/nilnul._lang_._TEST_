@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nilnul._lang_._TEST_", "nilnul._lang_._TEST_.csproj", "{FB0C86F6-C3ED-491D-988F-21F052A21692}"
 EndProject
@@ -29,6 +29,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
+		Sym2nuget|Any CPU = Sym2nuget|Any CPU
+		Sym2nuget|Mixed Platforms = Sym2nuget|Mixed Platforms
+		Sym2nuget|x86 = Sym2nuget|x86
 		Symbol|Any CPU = Symbol|Any CPU
 		Symbol|Mixed Platforms = Symbol|Mixed Platforms
 		Symbol|x86 = Symbol|x86
@@ -73,6 +76,12 @@ Global
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Release|x86.Build.0 = Release|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|Any CPU.ActiveCfg = Sym2nuget|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|Any CPU.Build.0 = Sym2nuget|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|Mixed Platforms.ActiveCfg = Sym2nuget|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|Mixed Platforms.Build.0 = Sym2nuget|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|x86.ActiveCfg = Sym2nuget|Any CPU
+		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Sym2nuget|x86.Build.0 = Sym2nuget|Any CPU
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Symbol|Any CPU.ActiveCfg = Symbol|Any CPU
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Symbol|Any CPU.Build.0 = Symbol|Any CPU
 		{FB0C86F6-C3ED-491D-988F-21F052A21692}.Symbol|Mixed Platforms.ActiveCfg = Symbol|Any CPU
@@ -121,6 +130,12 @@ Global
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Release|x86.ActiveCfg = Release|Any CPU
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Release|x86.Build.0 = Release|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|Any CPU.ActiveCfg = Sym2nuget|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|Any CPU.Build.0 = Sym2nuget|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|Mixed Platforms.ActiveCfg = Sym2nuget|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|Mixed Platforms.Build.0 = Sym2nuget|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|x86.ActiveCfg = Sym2nuget|Any CPU
+		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Sym2nuget|x86.Build.0 = Sym2nuget|Any CPU
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Symbol|Any CPU.ActiveCfg = Symbol|Any CPU
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Symbol|Any CPU.Build.0 = Symbol|Any CPU
 		{F75CEF48-1EA8-47DD-BB54-78188F52A8E0}.Symbol|Mixed Platforms.ActiveCfg = Symbol|Any CPU
