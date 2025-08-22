@@ -74,28 +74,28 @@
       <HintPath>..\..\.deps\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._bit_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.241110.144106\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._bit_._LIB_.1.1.250403.95517\lib\net48\nilnul._bit_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._character_._LIB_, Version=2.1.8387.39356, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.241125.83507\lib\net48\nilnul._character_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._character_._LIB_.2.1.250403.154606\lib\net48\nilnul._character_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.241108.145825\lib\net48\nilnul._num_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LIB_.1.1.241212.85916\lib\net48\nilnul._num_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._num_._LINQ_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.241104.93627\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._num_._LINQ_.1.1.241212.85916\lib\net48\nilnul._num_._LINQ_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._obj_._LIB_, Version=1.2.0.0, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.241125.83253\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._obj_._LIB_.1.2.250409.94944\lib\net48\nilnul._obj_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._rel_._LIB_, Version=1.2.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.241130.102439\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._rel_._LIB_.1.2.250317.44327\lib\net48\nilnul._rel_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._set_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.240831.105511\lib\net48\nilnul._set_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._set_._LIB_.1.1.250118.94723\lib\net48\nilnul._set_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="nilnul._txt_._LIB_, Version=1.1.0.1, Culture=neutral, PublicKeyToken=085f320e4a727230, processorArchitecture=MSIL">
-      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.241203.71000\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
+      <HintPath>..\..\.deps\nilnul._txt_._LIB_.1.1.250407.50617\lib\net48\nilnul._txt_._LIB_.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -121,6 +121,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="grammar\symbol\reduce_\eg_\ICollatz.cs" />
+    <Compile Include="grammar\symbol\reduce_\finite_\cyc_\eg_\IOscillating.cs" />
+    <Compile Include="grammar\symbol\reduce_\finite_\acyc_\eg_\Arithmetic.cs" />
+    <Compile Include="grammar\symbol\reduce_\infinite_\eg_\ICounting.cs" />
     <Compile Include="grammar_\contextual_\contextless_\eg_\NonRegular.cs" />
     <Compile Include="grammar_\contextual_\contextless_\eg_\NonAmbiguous.cs" />
     <Compile Include="grammar_\contextual_\contextless_\regular_\eg_\AsBs.cs" />
@@ -128,11 +132,6 @@
     <Compile Include="grammar_\eg_\Ambiguous.cs" />
     <Compile Include="method_\closure\UnitTest1.cs" />
     <Compile Include="share\UnitTest1.cs" />
-    <Compile Include="nilnul0\lang_\expr_\_bit\walk\UnitTest1 - Copy.cs" />
-    <Compile Include="nilnul0\lang_\expr_\_bit\UnitTest1 - Copy.cs" />
-    <Compile Include="nilnul0\lang_\expr_\bit_\transparent\compiler_\binaryTree\compile\compiledBe\tauto\UnitTest1.cs" />
-    <Compile Include="nilnul0\lang_\expr_\bit_\transparent\compiler_\binaryTree\compile\compiledBe\UnitTest1.cs" />
-    <Compile Include="nilnul0\lang_\expr_\bit_\transparent\be_\contradictary\ov_\multi\UnitTest1.cs" />
     <Compile Include="nilnul0\lang_\IXml.cs" />
     <Compile Include="nilnul0\lang_\regex\UnitTest1.cs" />
     <Compile Include="nilnul0\lang_\_xml\IComment.cs" />
@@ -144,9 +143,10 @@
     <Compile Include="_sentence\clause\_scule\Li_.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="grammar\symbol\reduce\" />
     <Folder Include="grammar_\unrestricted_\" />
     <Folder Include="nilnul0\bit\" />
-    <Folder Include="nilnul0\lang_\expr_\bit_\transparent\parse\" />
+    <Folder Include="nilnul0\lang_\expr_\" />
     <Folder Include="nilnul0\lang_\xml\" />
   </ItemGroup>
   <ItemGroup>
